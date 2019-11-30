@@ -3,6 +3,8 @@
 <head>
 <title>Aptoide</title>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
   <div class="wrapper row1">
@@ -10,14 +12,14 @@
       <div id="hgroup">
         <h1><a href="#">Aptoide</a></h1>
         <h2>Kompani e sigurimit</h2>
+        <div id="header-contact">
+          <ul class="list none">
+            <li><span>Call us:</span> +xx xxx xxxxxxxxxx</li>
+            <li><span>Email us:</span><a href="mailto:blabla@gmail.com">blabla@gmail.com</a></li>
+          </ul>
+        </div>
       </div>
-      <div id="header-contact">
-        <ul class="list none">
-          <li><span>Call us:</span> +xx xxx xxxxxxxxxx</li>
-          <li><span>Email us:</span><a href="mailto:blabla@gmail.com">blabla@gmail.com</a></li>
-        </ul>
-      </div>
-    <nav>
+      <nav id="wrapper row1">
       <ul class="clear">
         <li class="first active"><a href="index.html">Homepage</a></li>
         <li><a href="pages/style-demo.html">Style Demo</a></li>
@@ -30,8 +32,23 @@
     </nav>
   </header>
 </div>
-<!-- ######################################### SLIDERI QETU ################################################# -->
-<!-- permbajtja -->
+<div class="wrapper row2">
+  <section id="intro">
+    <h1>&ldquo; Ne garantojme per sigurine tuaj - 24or Service &bdquo;</h1>
+  </section>
+  <section id="slider">
+    <!-- ########################################################################################## -->
+    <div id="controls">
+      <a href="#" class="prev"><img src="images/slider/controls/arrow-prev.png" alt="Previous"></a> <a href="#" class="next"><img src="images/slider/controls/arrow-next.png" alt="Next"></a>
+      <div class="slidescontainer">
+        <figure><a href="#"><img src="images/slider/1.jpg" width="760" height="320" alt=""></a></figure>
+        <figure><a href="#"><img src="images/slider/1.jpg" width="760" height="320" alt=""></a></figure>
+        <figure><a href="#"><img src="images/slider/1.jpg" width="760" height="320" alt=""></a></figure>
+      </div>
+    </div>
+    <!-- ########################################################################################## -->
+  </section>
+</div>
 <div class="wrapper row3">
   <div id="container" class="clear">
     <div id="homepage">
@@ -40,26 +57,27 @@
           <ul class="clear">
             <li class="odd">
                 <figure><img src="images/permbajtja/rrethnesh.png" alt=""></figure>
-                <header><a href="#">Rreth Nesh</a></header>
+                <h4>Rreth Nesh</h4>
                 <p>Kompania jon u formua ne vitin 1993</p>
                 <p class="more"><a href="#">Read More &raquo;</a></p>
             </li>
             <li class="odd">
               <figure><img src="images/permbajtja/services.png" alt=""></figure>
-              <header><a href="#">Sherbimet</a></header>
+              <h4>Sherbimet</h4>
               <p>Sherbimet qe ofrojme ne jane keto</p>
               <p class="more"><a href="#">Read More &raquo;</a></p>
             </li>
             <li class="odd">
               <figure><img src="images/permbajtja/kompanit.png" alt=""></figure>
-              <header><a href="#">Kompanit</a></header>
+                <h4>Kompanit</h4>
               <p>Kompanit qe ne punojme se bashku me to</p>
               <p class="more"><a href="#">Read More &raquo;</a></p>
             </li>
           </ul>
         </div>
       </section>
-      <section ="gallery"><h2>About Our Company</h2>
+      <section id="gallery">
+        <h2>About Our Company</h2>
         <div class="gall">
           <ul>
             <li><img src="images/faqet/besa.jpg" alt="Example" width="225" height="175"></li>
@@ -92,8 +110,6 @@
       </section>
   </div>
 </div>
-    
-<!-- Footeri -->
 <div class="wrapper row4">
   <div id="footer" class="clear">
     <!-- Section One -->
@@ -110,7 +126,6 @@
       Monday - Friday: 08:00 - 17:30 <br>
       Saturday: 08:00 - 13:00</p>
     </section>
-    <!-- Section Two -->
     <section class="one_quarter">
       <h2 class="title">Stay Social</h2>
       <nav>
@@ -122,7 +137,6 @@
         </ul>
       </nav>
     </section>
-    <!-- Section Three -->
     <section class="one_quarter">
       <h2 class="title">Blog Links</h2>
       <nav>
@@ -135,7 +149,6 @@
         <p class="more"><a href="#">Read More &raquo;</a></p>
       </nav>
     </section>
-    <!-- Section Four -->
     <section class="one_quarter">
       <h2 class="title">Contact Us</h2>
       <form method="post" action="#">
@@ -153,8 +166,6 @@
     </section>
   </div>
 </div>
-    
-<!-- Copyright -->
 <div class="wrapper row5">
   <footer id="copyright" class="clear">
     <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">Grupi 7</a></p>
