@@ -1,0 +1,6 @@
+
+
+#header #header-contact{display:block; float:right; width:auto; clear:right;}
+#header #header-contact ul{margin-top:15px;}
+#header #header-contact li{display:inline; margin:0 0 0 15px; padding:0 0 0 15px; border-left:1px solid #C0BAB6;}
+#header #header-contact li:first-child{margin:0; padding:0; border:none;}
