@@ -17,4 +17,17 @@ width:760px;
 height:320px; 
 margin:0 auto; 
 overflow:hidden;}
-//durajet mos e prek 
+#slider a.next, #slider a.prev
+{
+ position:absolute;
+ display:block;
+ top:135px; 
+right:0;
+ width:52px;
+ height:52px;
+ z-index:101;
+}
+#slider .prev
+{
+ left:0;
+}
