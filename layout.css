@@ -1,4 +1,6 @@
-
+#header{padding:40px 0;}
+#header #hgroup{display:block; float:left; width:auto; clear:right;}
+/* Tash pjesa per kontakt*/
 
 #header #header-contact{display:block; float:right; width:auto; clear:right;}
 #header #header-contact ul{margin-top:15px;}
