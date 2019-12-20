@@ -31,3 +31,4 @@ a{outline:none; text-decoration:none;}
 #header nav{padding-top: 3em;padding-bottom: 0em;display:block; width:100%; clear:both; text-align:center; font-size:16.1px;}
 #header nav ul li{display:inline-block; margin-left:25px; text-transform:uppercase;}
 #header nav ul li:first-child, #header nav ul li.first{margin-left:0;}
+#header nav ul li li{margin:0; text-align:left; font-style:normal;}
