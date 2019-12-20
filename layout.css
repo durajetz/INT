@@ -26,3 +26,7 @@ a{outline:none; text-decoration:none;}
 #header #header-contact li{color:#000000; background-color:#FFFFFF;display:inline; margin:0 0 0 30px; padding:0 0 0 30px;font-size:0.9em;}
 #header #header-contact li:first-child{background: url(../images/call.png) no-repeat 0 1px;  padding-left: 17px;}
 #header #header-contact li:last-child{background: url(../images/email.png) no-repeat 0 1px;padding-left: 17px;}
+
+/* Menyt kryesore */
+#header nav{padding-top: 3em;padding-bottom: 0em;display:block; width:100%; clear:both; text-align:center; font-size:16.1px;}
+#header nav ul li{display:inline-block; margin-left:25px; text-transform:uppercase;}
