@@ -1,8 +1,28 @@
-#header{padding:40px 0;}
+html, header, footer, body, article, section,
+nav, a, p, img, figure, figcaption, h1, h2, h3,
+div, ul, ol, li, hr
+{
+    margin: 0;
+    padding:0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+/* hyperlinqet*/
+a{outline:none; text-decoration:none;}
+
+/* headeri */
+#header{padding:30px 0;}
+
 #header #hgroup{display:block; float:left; width:auto; clear:right;}
-/* Tash pjesa per kontakt*/
+#header #hgroup h1, #header #hgroup h2{margin:0; font-weight:normal; text-transform:none;text-style:none;}
+#header #hgroup h1 a,#header #hgroup h2{color:#000000; background-color:#FFFFFF;}
+#header #hgroup h1{font-size:2.3em;}
+#header #hgroup h2{font-size:0.8em;text-transform:uppercase;}
 
 #header #header-contact{display:block; float:right; width:auto; clear:right;}
-#header #header-contact ul{margin-top:15px;}
-#header #header-contact li{display:inline; margin:0 0 0 15px; padding:0 0 0 15px; border-left:1px solid #C0BAB6;}
-#header #header-contact li:first-child{margin:0; padding:0; border:none;}
+#header #header-contact a{color:#000000;}
+#header #header-contact ul{margin-top:20px;}
+#header #header-contact li{color:#000000; background-color:#FFFFFF;display:inline; margin:0 0 0 30px; padding:0 0 0 30px;font-size:0.9em;}
+#header #header-contact li:first-child{background: url(../images/call.png) no-repeat 0 1px;  padding-left: 17px;}
+#header #header-contact li:last-child{background: url(../images/email.png) no-repeat 0 1px;padding-left: 17px;}
