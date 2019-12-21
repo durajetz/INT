@@ -12,6 +12,9 @@ div, ul, ol, li, hr
 /* hyperlinqet*/
 a{outline:none; text-decoration:none;}
 
+/* Vija nalt */
+.row9{border-top:5px solid #CB9530;}
+
 /* headeri */
 #header{padding:30px 0;}
 
