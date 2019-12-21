@@ -1,3 +1,4 @@
+#header, #container{display:block; width:960px; margin:0 auto;}
 html, header, footer, body, article, section,
 nav, a, p, img, figure, figcaption, h1, h2, h3,
 div, ul, ol, li, hr
