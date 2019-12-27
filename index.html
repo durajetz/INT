@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Apoid</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="css/slider.css">
-<link rel="stylesheet" href="css/layout.css">
-</head>
-<body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="layout/layout.css">
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery-defaultvalue.js"></script>
+    <!-- homepage scripts -->
+    <script src="layout/scripts/jquery-slides.min.js"></script>
+    <script>
+    $(function () {
+        $('#slider').slides({
+            preload: true,
+            preloadImage: 'images/slider/controls/loading.gif',
+            play: 5000,
+            pause: 2500,
+            hoverPause: true,
+    		generatePagination: false
+        });
+    });
+    </script>
     <title>Apoid</title>
   </head>
   <body class="">
@@ -49,14 +61,14 @@
     <div id="container" class="clear">
       <div id="homepage">
         <section id="intro">
-          <h1><em>&ldquo;We live in a world that has walls and those walls need to be guarded by APTOIDE &bdquo;</em></h1>
+          <h1><em>&ldquo;We live in a world that has walls and those walls need to be guarded by APOID &bdquo;</em></h1>
         </section>
   <div>
     <section id="slider">
       <div id="controls">
         <a href="#" class="prev"><img src="images/slider/controls/arrow-prev.png" alt="Previous"></a> <a href="#" class="next"><img src="images/slider/controls/arrow-next.png" alt="Next"></a>
         <div class="slidescontainer">
-          <figure><a href="#"><img src="images/slider/1.jpg" width="760" height="320" alt=""></a></figure>
+          <figure><a href="#"><img src="images/slider/oferta.png" width="760" height="320" alt=""></a></figure>
           <figure><a href="#"><img src="images/slider/1.jpg" width="760" height="320" alt=""></a></figure>
           <figure><a href="#"><img src="images/slider/1.jpg" width="760" height="320" alt=""></a></figure>
         </div>
@@ -93,48 +105,62 @@
       </section>
       <!-- #######################################TE REJAT################################################### -->
       <!-- ########################################################################################## -->
-      <fieldset><h3>About our company</h3><hr>
-        <section id="latest" class="last clear">
-          <article class="one_fifth">
-            <figure><img src="images/demo/player.gif" width="300" height="160" alt="profilepic">
-              <figcaption>
-                <p><b> Name: </b> John Doe </p>
-                <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-                <footer class="more"><a href="#">Read more &raquo;</a></footer>
-              </figcaption>
+          <div><section id="gallery">
+            <figure>
+              <header>T&euml; fundit</header>
+              <article class="wrapper row7">
+              <ul>
+                <li><a href="#"><img src="images/demo/terejat.png" alt=""></a></li>
+                <li><a href="#"><img src="images/demo/terejat.png" alt=""></a></li>
+                <li><a href="#"><img src="images/demo/terejat.png" alt=""></a></li>
+                <li class="last"><a href="#"><img src="images/demo/terejat.png" alt=""></a></li>
+              </ul>
+                </article>
             </figure>
-          </article>
-          <article class="one_fifth">
-            <figure><img src="images/demo/player.gif" width="300" height="160" alt="profilepic">
-              <figcaption>
-                <p><b> Name: </b> John Doe </p>
-                <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-                <footer class="more"><a href="#">Read more &raquo;</a></footer>
-              </figcaption>
-            </figure>
-          </article>
-          <article class="one_fifth">
-            <figure><img src="images/demo/player.gif" width="300" height="160" alt="profilepic">
-              <figcaption>
-                <p><b> Name: </b> John Doe </p>
-                <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna.</p>
-                <footer class="more"><a href="#">Read more &raquo;</a></footer>
-              </figcaption>
-            </figure>
-          </article>
-
-        </section>
-      </fieldset>
-
-    <!-- / content body -->
+          </section></div>
+      <!-- #######################################RRETH NESH################################################### -->
+      <!-- ########################################################################################## -->
+        <div class="aboutus"><header>Rreth nesh</header></div>
+            <section id="team" class="wrapper row8">
+              <article class="one_fifth">
+                <figure><img src="images/demo/rrethnesh.png" width="300" height="160" alt="">
+                  <figcaption>
+                    <p><b>Name: </b> Mividet Mikushnica </br>
+                    <b>Poisition: </b> Boss </p>
+                  <p>Mividet Mikushnica, i lindur me 25.09.1979 është njëri ndër biznesmenet më të suksesshëm në Kosovë. Mivideti vjen nga një familje e cila ka një histori të gjatë në biznes. Bizneset e tij në Kosovë kanë qenë gjithmonë inovative dhe një plus për ekonominë e vendit duke ulur papunësinë me një numër të madh të të punësuarve. Në anën tjetër, ai nuk është fokusuar vetëm në tregun Kosovar, por edhe në atë të Shqipërisë..</p>
+                    <class="more"><a href="#">Read More &raquo;</a>
+                  </figcaption>
+                </figure>
+              </article>
+              <article class="one_fifth">
+                <figure><img src="images/demo/rrethnesh.png" width="300" height="160" alt="">
+                  <figcaption>
+                    <p><b>Name: </b> Nuredin Cukici </br>
+                    <b>Poisition: </b> Chief Executive Officer </p>
+                  <p>Drejtor i Përgjithshëm me përvojë me një histori të demonstruar të punës në industrinë e sigurisë. Aftësi në Menaxhimin e Operacioneve, Menaxhimin, Fillimet e ngritura, Menaxhimin e Riskut, dhe Planifikimin Strategjik. Profesionist i fortë i zhvillimit të biznesit është diplomuar në Universitetin Staffordshire.</p>
+                    <class="more"><a href="#">Read More &raquo;</a>
+                  </figcaption>
+                </figure>
+              </article>
+              <article class="one_fifth lastbox">
+                <figure><img src="images/demo/rrethnesh.png" width="300" height="160" alt="">
+                  <figcaption>
+                    <p><b>Name: </b> Hadije Babushaj </br>
+                    <b>Poisition: </b> Chief Financial Officer </p>
+                  <p>Zyrtare Kryesore Financiare me përvojë me një histori të demonstruar të punës në industrinë e shërbimeve financiare. Aftësi në Microsoft PowerPoint, Komunikim, Gjuhë të Huaja, Menaxhim Koha dhe Menaxhim Ngjarje. Profesionist i fortë i financave me një diplomë BA Hons i përqendruar në Menaxhimin Global Financiar nga Regent's University London.</p>
+                    <class="more"><a href="#">Read More &raquo;</a>
+                  </figcaption>
+                </figure>
+              </article>
+            </section>
+    </div>
   </div>
 </div>
-</div>
-<!-- Footer -->
-<div class="wrapper row4">
-  <div id="footer" class="clear">
-    <!-- Section One -->
-    <section class="one_quarter">
+<!-- #############################################FOOTERI################################################### -->
+<!-- ################################################################################################ -->
+<footer id="footer" class="baba">
+  <div class="wrapper row4">
+    <div class="one_quarter first">
       <h3 class="title">Contact Details</h3>
       <p>Company name: Baba<br>
       Street Name&amp;Number: &quot;Deshmoret e Kombit&quot; nr.22<br>
@@ -146,10 +172,9 @@
       <p><b>Office Hours</b><br>
       Monday - Friday: 08:00 - 17:30 <br>
       Saturday: 08:00 - 13:00</p>
-    </section>
-    <!-- Section Two -->
-    <section class="one_quarter">
-      <h2 class="title">Stay Social</h2>
+    </div>
+    <div class="one_quarter">
+      <h3 class="title">Quick Links</h3>
       <nav>
         <ul>
           <li><img src="images/social/LinkedIn.png" alt=""><a href="#">Get linked up with LinkedIn</a></li>
@@ -158,10 +183,9 @@
           <li><img src="images/social/rss.png" alt=""><a href="#">RSS Feed</a></li>
         </ul>
       </nav>
-    </section>
-    <!-- Section Three -->
-    <section class="one_quarter">
-      <h2 class="title">Blog Links</h2>
+    </div>
+    <div class="one_quarter">
+      <h3 class="title">From The Blog</h3>
       <nav>
         <h3>Blog Post Titles</h3>
         <p>Posted by Admin on 00.00.0000 <br>
@@ -171,10 +195,9 @@
         Ketu shkruani tekstin rreth ndonje informacioni te fundem</p>
         <p class="more"><a href="#">Read More &raquo;</a></p>
       </nav>
-    </section>
-    <!-- Section Four -->
-    <section class="one_quarter">
-      <h2 class="title">Contact Us</h2>
+    </div>
+    <div class="one_quarter">
+      <h3 class="title">Contact Us</h3>
       <form method="post" action="#">
         <fieldset>
           <legend>Contact Form:</legend>
@@ -187,15 +210,20 @@
           <button type="submit" value="submit">Submit</button>
         </fieldset>
       </form>
-    </section>
-    <!-- / Section -->
+    </div>
+    </div>
+  </footer>
+
+<div class="wrapper row5">
+  <div id="copyright" class="baba">
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
   </div>
 </div>
-<!-- Copyright -->
-<div class="wrapper row5">
-  <footer id="copyright" class="clear">
-    <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved - <a href="#">Grupi 7</a></p>
-  </footer>
-</div>
-</body>
+<script>
+$(document).ready(function () {
+    $("#cf_name, #cf_email, #cf_subject, #cf_message").defaultvalue("Full Name", "Email Address", "Subject", "Message");
+});
+</script>
+  </body>
 </html>
