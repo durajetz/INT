@@ -1,0 +1,32 @@
+.chap{
+
+	color: red;
+	font-size: 30px;
+	margin-left: 150px;
+	margin-top: 50px;
+	display: block;
+	width: 300px;
+}
+.par{
+	width: 300px;
+	display:block;
+	margin-left: 150px;
+}
+.td1,.td2{
+	padding-bottom: 600px;
+
+}
+
+#more 
+{
+	display: none;
+
+}
+button{
+	border:0;
+	background:transparent;
+	color: red;
+}
+
+
+
