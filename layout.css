@@ -124,12 +124,45 @@ a{outline:none; text-decoration:none;}
     color:#737373;
 }
 /* sherbimet */
-#container #homepage{line-height:1.3em;}
-#container #homepage #services article{padding-top: 4em;padding-bottom: 3em;}
-#container #homepage #services figure{display:inline; float:left;}
-#container #homepage #services strong{float:left; margin:8px 0 0 10px; padding:0; font-size:16px;  text-transform:uppercase;color:#000000;}
-#services li.last{margin-right:0;}
-.teksti{float:left;color:#737373;}
-.more{text-align:right;margin-right:0.3em;}
-#container #homepage #services a{color: #CB9530;}
+#container #homepage
+{
+    line-height:1.3em;
+}
+#container #homepage #services article
+{
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+#container #homepage #services figure
+{
+    display:inline; 
+    float:left;
+}
+#container #homepage #services strong
+{
+    float:left;
+    margin:8px 0 0 10px; 
+    padding:0;
+    font-size:16px;
+    text-transform:uppercase;
+    color:#000000;
+}
+#services li.last
+{
+    margin-right:0;
+}
+.teksti
+{
+    float:left;
+    color:#737373;
+}
+.more
+{
+    text-align:right;
+    margin-right:0.3em;
+}
+#container #homepage #services a
+{
+    color: #CB9530;
+}
 
