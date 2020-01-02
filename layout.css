@@ -134,4 +134,8 @@ a{outline:none; text-decoration:none;}
 {
     color: #CB9530;
 }
+.one_quarter{display:block; float:left; margin:0 15.01px 0 0;}
+.one_quarter{width:305px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
 
