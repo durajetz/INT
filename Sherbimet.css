@@ -89,3 +89,148 @@ a
     background: url(../images/email.png) no-repeat 0 1px;
     padding-left: 17px;
 }
+/* Menyt kryesore */
+#header nav
+{
+    padding-top: 3em;
+    padding-bottom: 0em;
+    display:block; 
+    width:100%; 
+    clear:both; 
+    text-align:center;
+    font-size:16.1px;
+}
+#header nav ul li
+{
+    display:inline-block;
+    margin-left:25px; 
+    text-transform:uppercase;
+}
+#header nav ul li:first-child, #header nav ul li.first
+{
+    margin-left:0;
+}
+#header nav ul li li
+{
+    margin:0; 
+    text-align:left;
+    font-style:normal;
+}
+#header nav ul li a:link, #header nav ul li a:visited, #header nav ul li a:hover
+{
+    display:block;
+    margin:0;
+    padding:0;
+    color:#666666;
+    background-color:#FFFFFF;
+}
+#header nav ul li a:hover, #header nav ul li.active a
+{
+    color:#CB9530;
+    background-color:#FFFFFF;
+}
+#header nav ul li ul li a:link, #header nav ul li ul li a:visited
+{
+    width:150px;
+    float:none;
+    margin:0;
+    padding:7px 10px; 
+    text-transform:none; 
+    font-weight:normal;
+    color:#666666;
+    background-color:#F9F9F9;
+    border:none;
+}
+#header nav ul li ul li a:hover
+{
+    color:#CB9530; 
+    background-color:#F9F9F9;
+    border:none;
+}
+#header nav ul ul
+{
+    z-index:9999; 
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:170px; 
+    padding:5px 0 0 0;
+    border-bottom:1px solid #D5D5D5;
+}
+#header nav ul ul a
+{
+    width:140px;
+}
+#header nav ul li:hover ul
+{
+    left:auto;
+}
+#header nav ul li:hover
+{
+    position:static;
+}
+
+  /* Vija nalt */
+  .row9
+{
+    border-top:5px solid #CB9530;
+}
+  /* vijat */
+  .row3
+{
+    padding-top:2em;
+    border-top:1px solid #D5D5D5;
+}
+  .row3
+{
+      padding-bottom:0em;
+    border-bottom:1px solid #D5D5D5;
+}
+  .teksti h3
+{
+      text-align:center;
+      text-transform: uppercase;
+      color:#CB9530;
+     font-family: "Great Vibes", cursive; 
+     font-style: italic;
+     font-size: 35px;
+     margin-top: 15px;
+     margin-bottom: 10px;
+  }
+  
+  .one_third section 
+  {
+      display: block;
+      width: 430px;
+   display: inline-block;
+   padding-left: 15px;
+   margin-top: 20px;
+   
+  }
+section h2
+  {
+      color: #CB9530;
+      font-family: 'Open Sans', sans-serif; 
+      font-size: 20px;
+      font-weight: 100; 
+      line-height: 20px; 
+      margin-top: 20px;
+      text-align: center;
+  }
+  section p {
+      color: #7a7c7f; 
+      font-size: 15px;
+      font-family: "Libre Baskerville", serif;
+      line-height: 25px;
+      text-align: center;
+      text-shadow: 0 1px 1px #fff;
+      padding-top: 20px; 
+      display: inline-block;
+     
+  }
+ section img 
+ {
+     border-radius:30%;
+   
+ }
+ 
