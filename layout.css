@@ -134,8 +134,123 @@ a{outline:none; text-decoration:none;}
 {
     color: #CB9530;
 }
-.one_quarter{display:block; float:left; margin:0 15.01px 0 0;}
-.one_quarter{width:305px;}
-.two_quarter{width:470px;}
-.three_quarter{width:715px;}
-
+.one_quarter
+{
+    display:block;
+    float:left;
+    margin:0 15.01px 0 0;
+}
+.one_quarter
+{
+    width:305px;
+}
+.two_quarter
+{
+    width:470px;
+}
+.three_quarter
+{
+    width:715px;
+}
+/* Te fundit */
+.row7
+{
+    padding-top:1.2em;
+    border-top:1px solid #D5D5D5;
+}
+#gallery{
+    display:block;
+    width:100%;
+    line-height:1.6em;
+}
+#gallery figure{}
+#gallery figure header
+{
+    margin:0 0 15px 0;
+    padding:0;
+    font-size:20px;
+    line-height:normal;
+}
+#gallery figure figcaption{
+    display:block;
+    width:100%;
+    margin:0; 
+    padding:0; 
+    clear:both;
+}
+#gallery ul, #gallery img
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    padding-bottom:2em;
+}
+#gallery li
+{
+    display:block; 
+    float:left;
+    width:225px; 
+    margin:0 20px 20px 0;
+    padding:0;
+}
+#gallery li.last
+{
+    margin-right:0;
+}
+#gallery li img
+{
+    display:block;
+    width:225px;
+    height:175px;
+}
+/* ekipa */
+.row8
+{
+    padding-top:1.2em;
+    border-top:1px solid #D5D5D5;
+}
+#container #homepage .aboutus header
+{
+    margin:0 0 15px 0;
+    padding:0; 
+    font-size:20px;
+    line-height:normal;
+}
+#container #homepage #team article figure img
+{
+    margin:0 0 15px 0;
+}
+#container #homepage #team article figure h2
+{
+    font-size:14px;
+    font-weight:bold;
+}
+#team p
+{
+    padding-bottom: 1em;
+}
+  .one_third, .two_third, .three_third
+{
+    display:block;
+    float:left;
+    margin:0 30px 0 0;
+}
+  .one_third
+{
+    width:300px;
+}
+  .two_third
+{
+    width:630px;
+}
+  .three_third
+{
+      width:960px;
+    float:none; 
+    margin-right:0;
+    clear:both;
+}
+  .lastbox
+{
+    margin-right:0;
+}
