@@ -70,7 +70,7 @@ a{outline:none; text-decoration:none;}
 /* Menyt kryesore */
 #topnav{display:block; width:960px;}
 .row2{border-top:1px solid #ECECEC;}
-#topnav {padding-top: 1.5em;padding-bottom: 1.5em;display:block; width:100%; clear:both;margin-left: 17em; font-size:16.5px}
+#topnav {padding-top: 1.5em;padding-bottom: 1.5em;display:block;clear:both;margin-left: 17em; font-size:16.5px}
 #topnav ul li{display:inline-block; margin-left:25px; text-transform:uppercase;}
 #topnav ul li:first-child, #header nav ul li.first{margin-left:0;}
 #topnav ul li li{margin:0; text-align:left; font-style:normal;}
