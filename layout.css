@@ -152,7 +152,7 @@ a{outline:none; text-decoration:none;}
 {
     width:715px;
 }
-/* Te fundit */
+/* ----------------------------------------------Te fundit------------------------------------ */
 .row7
 {
     padding-top:1.2em;
@@ -203,7 +203,7 @@ a{outline:none; text-decoration:none;}
     width:225px;
     height:175px;
 }
-/* ekipa */
+/* ----------------------------------------------Ekipa------------------------------------ */
 .row8
 {
     padding-top:1.2em;
@@ -254,3 +254,5 @@ a{outline:none; text-decoration:none;}
 {
     margin-right:0;
 }
+   /* ----------------------------------------------Footeri------------------------------------ */
+.row4{border-top: 9.5px solid #D5D5D5;border-bottom:1px solid #D5D5D5;background-color: #1f1f1f}
