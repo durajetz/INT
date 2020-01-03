@@ -272,3 +272,12 @@ a{outline:none; text-decoration:none;}
    #footer section ul li a{margin-left: 1em;font-size: 20px;}
    #footer section ul li img{padding-top: 0.4em;margin-top: 5px;}
   .more a{float: right;}
+
+#footer label{display:none;}
+   #footer input, #footer textarea{display:block; width:205px; margin:0 0 10px 0; padding:8px; border:1px solid #2c2c2c; color:#D5D5D5; background-color:#2c2c2c;}
+   #footer textarea{height:90px; overflow:auto;}
+   #footer button{padding:8px;padding-left: 0.8em;padding-right: 0.8em;font-size:14px;font-weight: bold;text-transform:uppercase; color:#FFFFFF; background-color:#CB9530; border:none; cursor:pointer;font-family:Georgia,"Times New Roman",Times,serif;}
+   #footer section article p.more{margin-left: 2em;}
+
+   #footer input, #footer textarea, #footer button{border-radius:5px;}
+   input, textarea, select{resize:none; outline:none;}
