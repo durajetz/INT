@@ -256,3 +256,4 @@ a{outline:none; text-decoration:none;}
 }
    /* ----------------------------------------------Footeri------------------------------------ */
 .row4{border-top: 9.5px solid #D5D5D5;border-bottom:1px solid #D5D5D5;background-color: #1f1f1f}
+ .one_quarter, .two_quarter, .three_quarter{display:block; float:left; margin:0 0 0 20px;}
