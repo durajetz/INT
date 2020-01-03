@@ -262,3 +262,13 @@ a{outline:none; text-decoration:none;}
  .three_quarter{width:715px;}
  .first, .one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child{margin-left:0;}
  .four_quarter{width:100%; float:none; margin-left:0; clear:both;}
+ .footeri{padding-top: 2.5em;}
+   #footer{padding:30px; line-height:1.5em;color: #7e7e7e}
+   #footer section h2.title{margin-bottom:30px; font-size:21px;color: #c9c9c9;}
+   #footer #dhenat p{line-height: 1.2em;font-size: 15px;}
+   #footer nav ul{margin:0; padding:0; list-style:none;}
+   #footer section ul li{margin:10px 0 0 0; padding:0 0 5px 0; border-bottom:1px solid #2c2c2c;list-style-type: none;}
+   #footer section ul li:first-child, #footer section nav ul li.first{margin-top:0;}
+   #footer section ul li a{margin-left: 1em;font-size: 20px;}
+   #footer section ul li img{padding-top: 0.4em;margin-top: 5px;}
+  .more a{float: right;}
