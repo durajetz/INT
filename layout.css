@@ -257,3 +257,8 @@ a{outline:none; text-decoration:none;}
    /* ----------------------------------------------Footeri------------------------------------ */
 .row4{border-top: 9.5px solid #D5D5D5;border-bottom:1px solid #D5D5D5;background-color: #1f1f1f}
  .one_quarter, .two_quarter, .three_quarter{display:block; float:left; margin:0 0 0 20px;}
+ .one_quarter{width:225px;}
+ .two_quarter{width:470px;}
+ .three_quarter{width:715px;}
+ .first, .one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child{margin-left:0;}
+ .four_quarter{width:100%; float:none; margin-left:0; clear:both;}
