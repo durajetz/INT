@@ -1,0 +1,154 @@
+#header, #container , #footer , #copyright{display:block; width:960px; margin:0 auto;}
+/* body{margin:0; padding:0; font-size:12px; font-family:Georgia, "Times New Roman", Times, serif; color:#848C92; background-color:#FFFFFF;} */
+
+section .hero .galeria {
+  margin: 20px 50px;
+}
+section .hero .galeria img{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+transition: 1s;
+}
+section .hero .galeria img:hover {
+  filter: grayscale(0);
+  transform: scale(1,1);
+}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+div.wrapper a{color:#CB9430;}
+
+/* reset */
+html, header,footer, body, article, section,
+nav, a, p, img, figure, figcaption, h1, h2, h3,
+div, ul, ol, li
+{
+    margin: 0;
+    padding:0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+/* hyperlinqet*/
+a{outline:none; text-decoration:none;}
+/* headeri */
+#header{padding:30px; margin-bottom: 13px;}
+
+#header #hgroup{display:block; float:left; width:auto; clear:right;}
+#header #hgroup h1, #header #hgroup h2{margin:0; font-weight:normal; text-transform:none;text-style:none;}
+#header #hgroup h1 a,#header #hgroup h2{color:#000000; background-color:#FFFFFF;}
+#header #hgroup h1{font-size:2.3em;}
+#header #hgroup h2{font-size:0.8em;text-transform:uppercase;}
+
+#header #header-contact{display:block; float:right; width:auto; clear:right;}
+#header #header-contact a{color:#000000;}
+#header #header-contact ul{margin-top:20px;}
+#header #header-contact li{color:#000000; background-color:#FFFFFF;display:inline; margin:0 0 0 30px; padding:0 0 0 30px;font-size:0.9em;}
+#header #header-contact li:first-child{background: url(../images/call.png) no-repeat 0 1px;  padding-left: 17px;}
+#header #header-contact li:last-child{background: url(../images/email.png) no-repeat 0 1px;padding-left: 17px;}
+
+/* Menyt kryesore */
+#topnav{display:block; width:960px;}
+.row2{border-top:1px solid #ECECEC;}
+#topnav {padding-top: 1.5em;padding-bottom: 1.5em;display:block;clear:both;margin-left: 17em; font-size:16.5px}
+#topnav ul li{display:inline-block; margin-left:25px; text-transform:uppercase;}
+#topnav ul li:first-child, #topnav ul li.first{margin-left:0;}
+#topnav ul li li{margin:0; text-align:left; font-style:normal;}
+#topnav ul li a:link,#topnav ul li a:visited,#topnav ul li a:hover{display:block; margin:0; padding:0; color:#666666; background-color:#FFFFFF;}
+#topnav ul li a:hover,#topnav ul li.active a{color:#CB9530;background-color:#FFFFFF;}
+#topnav ul li ul li a:link,#topnav ul li ul li a:visited{width:150px; float:none; margin:0; padding:7px 10px; text-transform:none; font-weight:normal; color:#666666; background-color:#F9F9F9; border:none;}
+#topnav ul li ul li a:hover{color:#CB9530; background-color:#F9F9F9; border:none;}
+#topnav ul ul{z-index:9999; position:absolute; left:-999em; height:auto; width:170px; padding:5px 0 0 0; border-bottom:1px solid #D5D5D5;}
+#topnav ul ul a{width:140px;}
+#topnav ul li:hover ul{left:auto;}
+#topnav ul li:hover{position:static;}
+
+  /* Vija nalt */
+  .row9{border-top:5px solid #CB9530;}
+  .row3{padding-top:2em;border-top:1px solid #D5D5D5;}
+
+/*PORTOFOLIO */
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;  /* vw and vh stand for the percentage of the viewport width and height. In this case, we are setting our hero to be 100% of the browser width and height. */
+    /* Flexbox stuff */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     font-family: sans-serif;
+
+background-image: url('../images/bg-mrapa.png');
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 3em;
+    padding-bottom: 0.2em;
+    font-family: Nevrada;
+    text-align: center;
+    color: white;
+}
+.hero h2 {
+    /* Text styles */
+    font-size: 1em;
+    padding-bottom: 0.2em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 1px solid ##ffffff;
+}
+
+@font-face { font-family: Nevrada; src: url('Nevrada.otf'); }
+
+
+ /* ----------------------------------------------Footeri------------------------------------ */
+
+.row4{border-top: 9.5px solid #D5D5D5;border-bottom:1px solid #D5D5D5;background-color: #1f1f1f}
+ .one_quarter, .two_quarter, .three_quarter{display:block; float:left; margin:0 0 0 20px;}
+ .one_quarter{width:225px;}
+ .two_quarter{width:470px;}
+ .three_quarter{width:715px;}
+ .first, .one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child{margin-left:0;}
+ .four_quarter{width:100%; float:none; margin-left:0; clear:both;}
+ .footeri{padding-top:0;}
+ #footer{padding:30px; line-height:1.5em;color: #7e7e7e}
+ #footer section h2.title{margin-bottom:30px; font-size:21px;color: #c9c9c9;}
+  #footer #dhenat p{line-height: 1.2em;font-size: 15px;}
+ #footer nav ul{margin:0; padding:0; list-style:none;}
+ #footer section ul li{margin:10px 0 0 0; padding:0 0 5px 0; border-bottom:1px solid #2c2c2c;list-style-type: none;}
+ #footer section ul li:first-child, #footer section nav ul li.first{margin-top:0;}
+ #footer section ul li a{margin-left: 1em;font-size: 20px;}
+ #footer section ul li img{padding-top: 0.4em;margin-top: 5px;}
+.more a{float: right;}
+
+ #footer label{display:none;}
+ #footer input, #footer textarea{display:block; width:205px; margin:0 0 10px 0; padding:8px; border:1px solid #2c2c2c; color:#D5D5D5; background-color:#2c2c2c;}
+ #footer textarea{height:90px; overflow:auto;}
+ #footer button{padding:8px;padding-left: 0.8em;padding-right: 0.8em;font-size:14px;font-weight: bold;text-transform:uppercase; color:#FFFFFF; background-color:#CB9530; border:none; cursor:pointer;font-family:Georgia,"Times New Roman",Times,serif;}
+ #footer section article p.more{margin-left: 2em;}
+
+ #footer input, #footer textarea, #footer button{border-radius:5px;}
+ input, textarea, select{resize:none; outline:none;}
+
+  /* ----------------------------------------------Copyright------------------------------------- */
+
+  #copyright{padding:20px 0;}
+  #copyright, #copyright a{color:#666666; background-color:#FFFFFF;}
+  #copyright p{margin:0; padding: 0;}
+
+  form, fieldset, legend{margin:0; padding:0; border:none;}
+  legend{display:none;}
+  input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
