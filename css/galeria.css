@@ -87,20 +87,17 @@ background-attachment: fixed;
     font-family: Nevrada;
     text-align: center;
     color: white;
-}
-.hero h2 {
-    /* Text styles */
-    font-size: 1em;
-    padding-bottom: 0.2em;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    border-bottom: 1px solid ##ffffff;
+    border-bottom: 2px solid #cb9630;
+    margin-left: 0.3em;
 }
 
 @font-face { font-family: Nevrada; src: url('Nevrada.otf'); }
 
 .galeria img{
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+box-shadow: inset 5em 1em #cb9630;
   width: 230px;
   padding: 5px;
   filter: grayscale(100%);
