@@ -11,3 +11,14 @@ const snake = [{x: 0, y: 0}];
 const apple = {};
 let direction = 'right';
 let speed = 200;
+
+function random (min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+function setApple() {
+  apple.x = Math.round(random(size, canvas.width - size) / size) * size;
+  apple.y = Math.round(random(size, canvas.height - size) / size) * size;
+}
+
+
