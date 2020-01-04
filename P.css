@@ -12,10 +12,7 @@
 	display:block;
 	margin-left: 150px;
 }
-.td1,.td2{
-	padding-bottom: 600px;
 
-}
 
 #more 
 {
@@ -28,10 +25,14 @@ button{
 	color: red;
 }
 
+
+
+.row9{border-top:5px solid #CB9530;}
 /* Three columns side by side */
 .column {
   float: left;
   width: 30%;
+  margin-top: 50px;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -80,5 +81,14 @@ button{
 
 .button:hover {
   background-color: #555;
+}.rrethne{
+	display: inline-block;
+	margin-bottom: 20px;
 }
+.oo{
+	position:relative;
+	
+	vertical-align: top;
+}
+
 
