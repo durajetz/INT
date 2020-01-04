@@ -97,6 +97,7 @@ background-attachment: fixed;
   margin-left: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
+ border-radius: 5px 20px 5px;
 box-shadow: inset 5em 1em #cb9630;
   width: 230px;
   padding: 5px;
