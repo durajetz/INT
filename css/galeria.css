@@ -1,19 +1,6 @@
 #header, #container , #footer , #copyright{display:block; width:960px; margin:0 auto;}
 /* body{margin:0; padding:0; font-size:12px; font-family:Georgia, "Times New Roman", Times, serif; color:#848C92; background-color:#FFFFFF;} */
 
-section .hero .galeria {
-  margin: 20px 50px;
-}
-section .hero .galeria img{
-  width: 230px;
-  padding: 5px;
-  filter: grayscale(100%);
-transition: 1s;
-}
-section .hero .galeria img:hover {
-  filter: grayscale(0);
-  transform: scale(1,1);
-}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -113,6 +100,16 @@ background-attachment: fixed;
 
 @font-face { font-family: Nevrada; src: url('Nevrada.otf'); }
 
+.galeria img{
+  width: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+transition: 1s;
+}
+.galeria img:hover {
+  filter: grayscale(0);
+  transform: scale(1,1);
+}
 
  /* ----------------------------------------------Footeri------------------------------------ */
 
