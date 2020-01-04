@@ -21,4 +21,18 @@ function setApple() {
   apple.y = Math.round(random(size, canvas.height - size) / size) * size;
 }
 
+function draw() {
+  context.clearRect(0, 0, canvas.width, canvas.height);
+
+  context.fillStyle = 'red';
+  context.fillRect(apple.x, apple.y, size, size);  
+
+  for (let i = 0; i < snake.length; i += 1){
+    const s = snake[i];
+    context.fillStyle = '#fff';
+    context.fillRect(s.x, s.y, size, size);
+  }
+
+  window.requestAnimationFrame(draw);
+}
 
