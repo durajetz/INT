@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+body, #canvas {
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/012/243/473/large/guilherme-ribeiro-zoosnake.jpg?1533783646');
+
+}
