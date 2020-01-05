@@ -71,7 +71,6 @@ a{outline:none; text-decoration:none;}
      justify-content: center;
      align-items: center;
      margin: 0;
-     font-family: sans-serif;
 
 background-image: url('../images/bg-mrapa.png');
 background-size: cover;
@@ -83,7 +82,7 @@ background-attachment: fixed;
 .hero h1 {
     /* Text styles */
     font-size: 3em;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.4em;
     font-family: Nevrada;
     text-align: center;
     color: white;
@@ -94,12 +93,14 @@ background-attachment: fixed;
 @font-face { font-family: Nevrada; src: url('Nevrada.otf'); }
 
 .galeria img{
-  margin-left: 1em;
+  margin-left: 9em;
   margin-bottom: 1em;
-  margin-top: 1em;
- border-radius: 5px 20px 5px;
+  margin-top: 1.5em;
+ /* border-radius: 5px 20px 5px; */
+ border-radius: 50%;
 box-shadow: inset 5em 1em #cb9630;
   width: 230px;
+  height: 220px;
   padding: 5px;
   filter: grayscale(100%);
 transition: 1s;
